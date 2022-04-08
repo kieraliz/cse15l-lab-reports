@@ -31,4 +31,25 @@ Long sentence with <br> break in the middle
 # Lab 1 Report - Week 2: A Guide to Setting up Remote Access
 Hello incoming CSE 15L students! This guide will help you in setting up remote access when logging into a course-specific account using ieng6. 
 
-## Step 1: --- 
+## Step 1: Installing VS Code
+
+
+
+## Step 2: Remotely Connecting
+
+
+
+## Step 3: Trying Some Commands
+
+
+
+## Step 4: Moving Files with scp
+
+
+
+## Step 5: Setting an SSH Key
+
+
+
+
+## Step 6: Optimizing Remote Running
