@@ -32,7 +32,7 @@ Long sentence with <br> break in the middle
 Hello incoming CSE 15L students! This guide will help you in setting up remote access when logging into a course-specific account using ieng6. 
 
 ## Step 1: Installing VS Code
-VS Code (also known as Visual Studio Code) is a programming tool used for creating code. To install VS Code, ... 
+VS Code (also known as Visual Studio Code) is a programming tool used for creating code. To install VS Code, go to the [VS Code Download page]( https://code.visualstudio.com/) and follow the instructions for your device. When installed, the app should look like this:
 
 
 ## Step 2: Remotely Connecting
