@@ -10,17 +10,13 @@ Hello!
 Long sentence with <br> break in the middle
 
 * Bullet
-* Points
-* with
-* an
-* * indent
-* in
-* list
+* List
+* * Indent
 
 [Link to Canvas](canvas.ucsd.edu)
 
 ### Inserting image via URL
-<img src=https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png width="200" height="200">
+<img src=https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png width="150" height="150">
 
 ### Inserting screenshot
 <img src=https://user-images.githubusercontent.com/103288140/162539850-b6a91613-8c5f-407a-b432-954207d67037.PNG width="480" height="270">
