@@ -1,11 +1,23 @@
 
 Hello!
 
-# Header
+# Header for Main Title
 
-*Italics* <br>
-**Bold1** <br>
-__Bold2__ <br>
+*This text is italicized* <br>
+**This text is in bold** <br>
 
-## Subheader
+## Subheader for Smaller Section
 Long sentence with <br> break in the middle
+
+* Bullet
+* Points
+* with
+* an
+* * indent
+* in
+* list
+
+[Canvas](canvas.ucsd.edu)
+
+
+![University of California, San Diego](https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png)
