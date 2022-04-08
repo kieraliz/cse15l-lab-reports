@@ -20,4 +20,4 @@ Long sentence with <br> break in the middle
 [Canvas](canvas.ucsd.edu)
 
 
-![University of California, San Diego](https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png)
+<img src=https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/1200px-University_of_California%2C_San_Diego_seal.svg.png width="200" height="200">
