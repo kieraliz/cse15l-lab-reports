@@ -20,3 +20,15 @@ Long sentence with <br> break in the middle
 
 ### Inserting screenshot
 <img src=https://user-images.githubusercontent.com/103288140/162539850-b6a91613-8c5f-407a-b432-954207d67037.PNG width="480" height="270">
+
+
+
+
+
+
+
+
+# Lab 1 Report - Week 2: A Guide to Setting up Remote Access
+Hello incoming CSE 15L students! This guide will help you in setting up remote access when logging into a course-specific account using ieng6. 
+
+## Step 1: --- 
