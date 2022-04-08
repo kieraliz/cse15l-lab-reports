@@ -32,7 +32,7 @@ Long sentence with <br> break in the middle
 Hello incoming CSE 15L students! This guide will help you in setting up remote access when logging into a course-specific account using ieng6. 
 
 ## Step 1: Installing VS Code
-
+VS Code (also known as Visual Studio Code) is a programming tool used for creating code. To install VS Code, ... 
 
 
 ## Step 2: Remotely Connecting
