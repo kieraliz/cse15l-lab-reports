@@ -63,6 +63,72 @@ Content will load onto your page and your screen may look something like this:
 Woohoo, you're logged in! Your terminal is now connected to a computer in the CSE basement. Your computer device is the *client* and the computer in the CSE basement is the *server* based on how you are connected. 
 
 ## Step 3: Trying Some Commands
+Now that you are logged into the server, here are some commands to try in your terminal!
+
+#### cd
+The command *cd* ~ stands for Change Directory and is used to change the current directory to another directory.
+
+#### ls -lat
+The *ls* command is formatted *ls [options] [names]* and is used to list files. 
+
+The following command:
+> ls -lat
+
+will list all files with their respective dates and times. 
+
+This command may look like this:
+
+
+
+![Capture](https://user-images.githubusercontent.com/103288140/162639061-cde4df08-5d4f-47e8-aca0-10b3f1b48abd.PNG)
+
+#### ls -a
+
+The command:
+> ls -a
+
+will list all files. 
+
+This command may look like this: 
+
+
+
+![Capture](https://user-images.githubusercontent.com/103288140/162639089-286d87a8-9d91-4bf7-a6c5-414fc3face1d.PNG)
+
+
+#### ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc
+The command *ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc* prompts the terminal to list the directories in your ieng6 server account. 
+Replace the last three characters "abc" with your own three unique characters from your course-specific account, and type the command:
+> ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc
+
+This command may look like this:
+
+
+
+![Capture](https://user-images.githubusercontent.com/103288140/162639150-b15b42e9-c409-4a94-8336-0f08af949f95.PNG)
+
+
+#### cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+Cp stands for Copy. Interestingly, the command:
+> cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
+
+will produce error messages. This is because we are trying to copy a file we do not have access to. Thus, the command may look like this:
+
+
+
+![Capture](https://user-images.githubusercontent.com/103288140/162640064-769d4022-9653-453a-aa6c-7341deee877f.PNG)
+
+
+#### cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+The *cat* command is used to read a file and print their contents. Like the previous example, the command:
+> cat /home/linux/ieng6/cs15lsp22/public/hello.txt
+
+will produce error messages because we do not have access to the text file hello.txt. Thus, the command may look like this:
+
+
+
+![Capture](https://user-images.githubusercontent.com/103288140/162640167-9d5486f4-1198-48a5-bee0-98f1ce64c19d.PNG)
+
 
 
 ## Step 4: Moving Files with scp
