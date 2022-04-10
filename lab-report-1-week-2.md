@@ -48,7 +48,7 @@ If you see a message like this:
 > Are you sure you want to continue connecting
 > (yes/no/[fingerprint])?
 
-Then type *yes* and press enter.
+Type *yes* and press enter.
 
 You will then be prompted to type your password. 
 Type your password and press enter. 
@@ -66,17 +66,11 @@ Woohoo, you're logged in! Your terminal is now connected to a computer in the CS
 Now that you are logged into the server, here are some commands to try in your terminal!
 
 #### cd
-The command *cd* ~ stands for Change Directory and is used to change the current directory to another directory.
+The command *cd* stands for Change Directory and is used to change the current directory to another directory.
 
 #### ls -lat
-The *ls* command is formatted *ls [options] [names]* and is used to list files. 
-
-The following command:
-> ls -lat
-
-will list all files with their respective dates and times. 
-
-This command may look like this:
+The *ls* command is used to list files. 
+The command *ls -lat* will list all files with their respective dates and times. This command may look like this:
 
 
 
@@ -84,12 +78,7 @@ This command may look like this:
 
 #### ls -a
 
-The command:
-> ls -a
-
-will list all files. 
-
-This command may look like this: 
+The command *ls -a* will list all files. This command may look like this: 
 
 
 
@@ -97,11 +86,8 @@ This command may look like this:
 
 
 #### ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc
-The command *ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc* prompts the terminal to list the directories in your ieng6 server account. 
-Replace the last three characters "abc" with your own three unique characters from your course-specific account, and type the command:
-> ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc
-
-This command may look like this:
+The command *ls /home/linux/ieng6/cs15lsp22/cs15lsp22abc* will list the directories in your ieng6 server account. 
+After replacing the last three characters "abc" with your own three unique characters from your course-specific account, the command may look like this: 
 
 
 
@@ -109,10 +95,7 @@ This command may look like this:
 
 
 #### cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
-Cp stands for Copy. Interestingly, the command:
-> cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/
-
-will produce error messages. This is because we are trying to copy a file we do not have access to. Thus, the command may look like this:
+The command *cp* will copy a file. Interestingly, the command *cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/* will produce error messages. This is because we are trying to copy a file we do not have access to. Thus, the command may look like this:
 
 
 
@@ -120,10 +103,7 @@ will produce error messages. This is because we are trying to copy a file we do 
 
 
 #### cat /home/linux/ieng6/cs15lsp22/public/hello.txt
-The *cat* command is used to read a file and print their contents. Like the previous example, the command:
-> cat /home/linux/ieng6/cs15lsp22/public/hello.txt
-
-will produce error messages because we do not have access to the text file hello.txt. Thus, the command may look like this:
+The *cat* command will read a file and print their contents. Like the previous example, the command *cat /home/linux/ieng6/cs15lsp22/public/hello.txt* will produce error messages because we do not have access to the text file hello.txt. Thus, the command may look like this:
 
 
 
