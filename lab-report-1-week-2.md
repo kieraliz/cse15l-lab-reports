@@ -117,12 +117,19 @@ For this step we will learn how to work remotely by copying files back and forth
 #### WhereAmI.java
 Create a file on your computer with the following content:
 > class WhereAmI {
+> 
 >   public static void main(String[] args) {
+>   
 >     System.out.println(System.getProperty("os.name"));
+>     
 >     System.out.println(System.getProperty("user.name"));
+>     
 >     System.out.println(System.getProperty("user.home"));
+>     
 >     System.out.println(System.getProperty("user.dir"));
+>     
 >   }
+>   
 > }
 
 Run this file using *javac* and *java* on your command.
@@ -147,9 +154,43 @@ After using the *ls* commands and running *javac* and *java*, the command may lo
 
 
 ## Step 5: Setting an SSH Key
+Just as websites such as Canvas save password account information, we can use an ssh key to create a *public key* and *private key* to save our server password information. This allows us to login into the server without having to enter our password information. To set this up, enter the command:
+> ssh-keygen
+> Generating public/private rsa key pair.
+> 
+> Enter file in which to save the key
+> 
+> (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+> 
+> Enter passphrase (empty for no passphrase):
+ 
+**Important: When asked for a passphrase DO NOT ADD A PASSPHRASE. Simply press *Enter***
+
+Content will load onto the screen and the command may look like this:
+  
+  
+
+![screenshot](https://user-images.githubusercontent.com/103288140/162644408-063a77c2-3d6d-4d18-bae0-01147bccfb4e.PNG)
+
+These commands created two new files on your system:
+* The *private key* in file id_rsa
+* The *public key* in file id_rsa.pub
+
+Using your three character account username, enter the following commands into the terminal:
+> ssh cs15lsp22abc@ieng6.ucsd.edu
+>
+> <Enter your Password>
+>
+> mkdir .ssh
+>
+> exit
+>
+> scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22abc@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+Once you do this, you should be able to log into the server without entering a password, as shown below:
 
 
-## Step 6: Optimizing Remote Running
 
+![screenshot](https://user-images.githubusercontent.com/103288140/162644698-136c9530-f493-489b-b6ee-04961f53b30a.PNG)
 
-
+  
