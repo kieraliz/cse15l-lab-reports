@@ -27,6 +27,9 @@ For example, if my three unique characters are "abc," then my course-specific ac
 The Terminal feature of VS Code allows you to run code. To open the terminal, find the upper tab *Terminal* &rarr; *New Terminal.* You can resize the terminal to your liking. 
 
 Your screen should look like this:
+
+
+
 ![Capture](https://user-images.githubusercontent.com/103288140/162635318-140ee022-0aca-4317-b37f-79a0b3a24ae5.PNG)
 
 In the terminal replace the "abc" with your three unique characters to your course-specific account, and type the following command: 
@@ -51,6 +54,9 @@ You will then be prompted to type your password.
 Type your password and press enter. 
 
 Content will load onto your page and your screen may look something like this:
+
+
+
 ![screenshot](https://user-images.githubusercontent.com/103288140/162636340-bdcc58d6-1794-42de-ab6f-e0f3f6af6dbb.PNG)
 
 
