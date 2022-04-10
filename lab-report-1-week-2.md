@@ -179,12 +179,16 @@ These commands created two new files on your system:
 Using your three character account username, enter the following commands into the terminal:
 > ssh cs15lsp22abc@ieng6.ucsd.edu
 >
+> 
 > <Enter your Password>
 >
+> 
 > mkdir .ssh
 >
+> 
 > exit
 >
+> 
 > scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22abc@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 Once you do this, you should be able to log into the server without entering a password, as shown below:
