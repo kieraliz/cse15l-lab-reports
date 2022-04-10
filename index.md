@@ -24,6 +24,9 @@ Long sentence with <br> break in the middle
 #### Attempt 1:
 ![library](https://user-images.githubusercontent.com/103288140/162632731-36feb438-a7a8-421d-9e96-dbae0cb40027.PNG)
 
+#### Attempt 1 with size:
+<img src=https://user-images.githubusercontent.com/103288140/162632731-36feb438-a7a8-421d-9e96-dbae0cb40027.PNG width="250" height="150">
+
 
 
 
