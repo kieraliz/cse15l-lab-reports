@@ -111,7 +111,39 @@ The *cat* command will read a file and print their contents. Like the previous e
 
 
 
-## Step 4: Moving Files with scp
+## Step 4: Moving Files over SSH with scp
+For this step we will learn how to work remotely by copying files back and forth between the local and remote computers. This is done using the command *scp*, which will securely copy a file. 
+
+#### WhereAmI.java
+Create a file on your computer with the following content:
+> class WhereAmI {
+>   public static void main(String[] args) {
+>     System.out.println(System.getProperty("os.name"));
+>     System.out.println(System.getProperty("user.name"));
+>     System.out.println(System.getProperty("user.home"));
+>     System.out.println(System.getProperty("user.dir"));
+>   }
+> }
+
+Run this file using *javac* and *java* on your command.
+
+Next, in the terminal run this command (using your username):
+> scp WhereAmI.java cs15lsp22abc@ieng6.ucsd.edu:~/
+
+When asked for your password, type in your password. 
+
+Next, log out of ieng6 by typing *exit* into the terminal
+
+Then, log into ieng6 with ssh again by entering the following command with your username into the terminal:
+> ssh cs15lsp22abc@ieng6.ucsd.edu
+
+Use the *ls* command and you should see the file WhereAmI in your home directory. This means that you can now run WhereAmI on the ieng6 computer using javac and java. 
+After using the *ls* commands and running *javac* and *java*, the command may look like this:
+
+
+
+![screenshot](https://user-images.githubusercontent.com/103288140/162643729-d04d6ace-bb32-433d-b4bd-389952f79ba9.PNG)
+
 
 
 ## Step 5: Setting an SSH Key
