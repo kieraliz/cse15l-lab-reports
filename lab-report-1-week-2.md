@@ -193,4 +193,4 @@ Once you do this, you should be able to log into the server without entering a p
 
 ![screenshot](https://user-images.githubusercontent.com/103288140/162644698-136c9530-f493-489b-b6ee-04961f53b30a.PNG)
 
-  
+## Step 6: Optimizing Remote Running
