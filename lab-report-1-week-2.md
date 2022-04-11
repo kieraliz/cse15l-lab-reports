@@ -198,3 +198,20 @@ Once you do this, you should be able to log into the server without entering a p
 ![screenshot](https://user-images.githubusercontent.com/103288140/162644698-136c9530-f493-489b-b6ee-04961f53b30a.PNG)
 
 ## Step 6: Optimizing Remote Running
+Now that our remote server is set up, we can easily make local edits to *WhereAmI.java* with semicolons to simply our code with 2 keystrokes. 
+
+Replace "abc" with your server username and enter the following code into the terminal:
+> scp WhereAmI.java cs15sp22abc@ieng6.ucsd.edu:~/ ; ssh cs15lsp22abc@ieng6.ucsd.edu "javac WhereAmI.java" ; ssh cs15lsp22abc@ieng6.ucsd.edu "java WhereAmI"
+ 
+This line of code will copy any local edits made to WhereAmI.java and return these changes to the remote server - all with one keystroke! 
+ 
+## Concluding notes
+In this tutorial we learned how to:
+1. Install VS Code
+2. Remotely Connect to Remote Servers
+3. Try Commands such as ls, cd, and more
+4. Move Files with scp
+5. Set up an SSH Key 
+6. Optimize Remote Running with one keystroke
+ 
+ Congrats on setting up Remote Access CSE 15L students! Incredible job!
