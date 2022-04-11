@@ -164,7 +164,7 @@ Just as websites such as Canvas save password account information, we can use an
 **Important: When asked for a passphrase DO NOT ADD A PASSPHRASE. Simply press *Enter***
 
 Content will load onto the screen and the command may look like this:
-  
+	
   
 
 ![screenshot](https://user-images.githubusercontent.com/103288140/162644408-063a77c2-3d6d-4d18-bae0-01147bccfb4e.PNG)
@@ -176,19 +176,11 @@ These commands created two new files on your system:
 Using your three-character account username, enter the following commands into the terminal:
 > ssh cs15lsp22abc@ieng6.ucsd.edu
 >
-> 
-> 
 > <Enter your Password>
 >
-> 
-> 
 > mkdir .ssh
->
-> 
 > 
 > exit
->
-> 
 > 
 > scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22abc@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
@@ -199,7 +191,7 @@ Once you do this, you should be able to log into the server without entering a p
 ![screenshot](https://user-images.githubusercontent.com/103288140/162644698-136c9530-f493-489b-b6ee-04961f53b30a.PNG)
 
 ## Step 6: Optimizing Remote Running
-Now that our remote server is set up, we can easily make local edits to *WhereAmI.java* to simply our code with 1 keystrokes. 
+Now that our remote server is set up, we can easily make local edits to *WhereAmI.java* to simply our code with 1 keystroke. 
 
 Replace "abc" with your server username and enter the following code into the terminal:
 > scp WhereAmI.java cs15sp22abc@ieng6.ucsd.edu:~/ ; ssh cs15lsp22abc@ieng6.ucsd.edu "javac WhereAmI.java" ; ssh cs15lsp22abc@ieng6.ucsd.edu "java WhereAmI"
