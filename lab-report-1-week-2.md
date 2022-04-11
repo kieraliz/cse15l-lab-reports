@@ -167,7 +167,8 @@ Content will load onto the screen and the command may look like this:
 	
   
 
-![screenshot](https://user-images.githubusercontent.com/103288140/162644408-063a77c2-3d6d-4d18-bae0-01147bccfb4e.PNG)
+![Capture](https://user-images.githubusercontent.com/103288140/162654027-6d12ec0b-9379-401c-963a-d6d0e2fab77f.PNG)
+
 
 These commands created two new files on your system:
 * The *private key* in file id_rsa
