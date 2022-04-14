@@ -21,6 +21,8 @@ This is a list of ordered things
 
 Git is amazing!
 
+# Thank you everyone!
+
 # Header for Main Title
 
 *This text is italicized* <br>
