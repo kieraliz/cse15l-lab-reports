@@ -1,5 +1,17 @@
 
-Hello!
+# CSE 15L Lecture 2 Spring 2022
+
+## [Welcome Section!](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
+
+Hello, **CSE 15L** *students*! You are all amazing! :)
+
+How are you all doing?
+
+[Link to CSEL Webpage](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
+
+
+
+
 
 # Header for Main Title
 
