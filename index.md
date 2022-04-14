@@ -19,6 +19,7 @@ This is a list of ordered things
 2. two
 3. three
 
+Git is amazing!
 
 # Header for Main Title
 
@@ -33,3 +34,4 @@ This is a list of ordered things
 
 #### Inserting screenshot:
 ![library](https://user-images.githubusercontent.com/103288140/162632731-36feb438-a7a8-421d-9e96-dbae0cb40027.PNG)
+
