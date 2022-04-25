@@ -1,9 +1,11 @@
 # Lab Report 2 Week 4: Debugging and Test-Driven Development
 
-## Bug 1: 
+## Bug 1: Additional Line at the End of File Causes an Infinite Loop
+
+explain the bug (???) --> explain symptom (will turn into an infinite loop) --> failure-inducing input (test2) --> symptom/ result of that input (screenshot of infinite loop from incorrect test5) --> how to fix (additional changes) --> corrected output with terminal that properly runs and returns the link
 
 
-## Bug 2: Distinguishing the Difference Between Links and Images
+## Bug 2: Distinguishing the Difference Between Links and Images to Print the Correct Links
 The code is unable to distinguish the difference between a Link and Image because the markdown syntax for Links and Images are nearly identical in that both use brackets followed by parenthesis. Other than the exclamation mark that distinguish an Image from a Link, the code is unable to distinguish Links from Images. 
 
 Links: 
@@ -37,10 +39,7 @@ With these corerctions, when we rerun our failure-inducing input we will see tha
 
 ![correct test5](https://user-images.githubusercontent.com/103288140/165162907-3bd1d3f8-dd23-44fa-be36-f6aa43c1a996.PNG)
 
-## Bug 3: 
-
-explain the bug (prints inner content no matter what, including spare lines spare lines) --> explain symptom (will print excessive lines when only supposed to print the link) --> failure-inducing input (test4) --> symptom/ result of that input (screenshot printing results from incorrect test5) --> how to fix (additional changes) --> corrected output without spare lines
-
+## Bug 3: Trimming off Excess Lines to Print Links
 The code returns the links by extracting all the content inside the input's parenthesis. This is problematic for the case in which there is an excessive amount of spare lines surrounding the link, in which case all the lines will be printed. 
 
 The bug lies in the fact that there is no way to eliminate any excess lines before returning a link. As a result, the symptom to this bug is that the code will print the link and all its surrounding excess lines, when it is only supposed to print out the link. 
