@@ -8,7 +8,7 @@ The code is unable to distinguish the difference between a Link and Image becaus
 The bug lies in the fact that the code cannot distinguish links and images.
 As a result, the symptom to this bug is that the code will always print out the contents of an input with brackets and parentheses, even if those lines are reserved for images and not links. 
 
-We can see this symptom by running this [Failure-Inducing Input](https://github.com/kieraliz/markdown-parser/blob/main/test5.md) that contains a link and image, which will return the link and image when its only supposed to return the link. This is the output: 
+We can see this symptom by running this [Failure-Inducing Input](https://github.com/kieraliz/markdown-parser/blob/main/test5.md?plain=1) that contains a link and image, which will return the link and image when its only supposed to return the link. This is the output: 
 
 
 
@@ -32,7 +32,7 @@ The code returns the links by extracting all the content inside the input's pare
 
 The bug lies in the fact that there is no way to eliminate any excess lines before returning a link. As a result, the symptom to this bug is that the code will print the link and all its surrounding excess lines, when it is only supposed to print out the link. 
 
-We can see this symptom by running this [Failure-Inducing Input](https://github.com/kieraliz/markdown-parser/blob/main/test4.md) that contains excess lines surrounding a link, which will return all the excess lines when it is not supposed to. This is the output:
+We can see this symptom by running this [Failure-Inducing Input](https://github.com/kieraliz/markdown-parser/blob/main/test4.md?plain=1) that contains excess lines surrounding a link, which will return all the excess lines when it is not supposed to. This is the output:
 
 
 
