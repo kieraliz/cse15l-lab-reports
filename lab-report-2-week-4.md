@@ -49,7 +49,7 @@ This bug can be resolved by using the String method ".trim()" to trim off the ex
 
 
 
-![correct test4](https://user-images.githubusercontent.com/103288140/165168057-6e209cca-223b-4e51-afa2-2a4a0bb64773.PNG)
+![debugging test4](https://user-images.githubusercontent.com/103288140/165606127-76313cde-b3dd-422c-abdf-fe9a5995ac06.PNG)
 
 With these corrections, when we rerun our failure-inducing input we will see that the code will only print the link without the excess lines, and thus our bug has been fixed:
 
