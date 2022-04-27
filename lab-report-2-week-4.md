@@ -2,7 +2,29 @@
 
 ## Bug 1: Additional Line at the End of File Causes an Infinite Loop
 
-explain the bug (???) --> explain symptom (will turn into an infinite loop) --> failure-inducing input (test2) --> symptom/ result of that input (screenshot of infinite loop from incorrect test5) --> how to fix (additional changes) --> corrected output with terminal that properly runs and returns the link
+explain the bug (???) --> explain symptom (index out of bounds exception error) --> failure-inducing input (test2) --> symptom/ result of that input (screenshot of exceptions thrown) --> how to fix (additional changes) --> corrected output with terminal that properly runs and returns the link
+
+If the file does not end with a closed parenthesis, then the file will go out of bounds???
+
+The symptom to this bug is that the code is that an Index Out of Bounds error will be thrown when running the terminal, when it is supposed to return the links provided in the file instead. Thus, when given a failure-inducing input with an additional line at the end of the file, the code will thrown an Index Out of Bounds exception when it is not supposed to.
+
+We can see this symptom by running this [Failure-Inducing Input]
+. , which throws an Index Out of Bounds Exception. This is the ouptput:
+
+
+
+![symptom test2](https://user-images.githubusercontent.com/103288140/165601033-7eb5dacd-5dcb-44e0-b031-34527d035be4.PNG)
+
+This bug can be fixed by adjusting the increment value of currentIndex to explicitly ensure that the current value of currentIndex is added to currentParen + 1, as show below ():
+
+
+
+
+With these corrections, rerunning our failure-inducing input will correctly return the links with no exceptions thrown, and thus our bug has been fixed:
+
+
+
+![correct test2](https://user-images.githubusercontent.com/103288140/165601421-7889a3af-6d31-4769-b489-1d09c1fca438.PNG)
 
 
 ## Bug 2: Distinguishing the Difference Between Links and Images to Print the Correct Links
