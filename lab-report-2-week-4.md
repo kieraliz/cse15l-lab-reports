@@ -57,32 +57,25 @@ With these corrections, when we rerun our failure-inducing input we will see tha
 
 ![corrected test4](https://user-images.githubusercontent.com/103288140/165168326-93fc5ec6-5a0d-46b1-b03f-dcb1482c0866.PNG)
 
+## Bug 3: Additional Line at the End of File Causes an Index Out of Bounds Exception
+The current increment for currentIndex will increment currentIndex after the value of closeParen. This is problematic for the case in which extra lines are followed by links, or when the parenthesized link is not the last line of a file. Even though the code should only return the parenthesized links, the code still needs a way of processing those extra lines and characters without throwing an Index Out of Bounds Exception. 
+
+The bug lies in the fact that it is increment the value of currentIndex once past the last parenthesis of a file. As a result, the symptom to this bug is that the terminal will fail and throw an IndexOutOfBoundsException when it is not supposed to, and also returns no links. 
+
+We can see this symptom by running this [Failure-Inducing Input](https://github.com/kieraliz/markdown-parser/blob/main/test2.md?plain=1) that contains an extra line past the link, which will throw an IndexOutOfBoundsException when it is not supposed to. This is the output:
 
 
 
+![symptom test2](https://user-images.githubusercontent.com/103288140/165619153-5d0a568d-8937-4caa-87cf-9a7013768efe.PNG)
 
-## Bug 3: Additional Line at the End of File Causes an Infinite Loop
-
-explain the bug (???) --> explain symptom (index out of bounds exception error) --> failure-inducing input (test2) --> symptom/ result of that input (screenshot of exceptions thrown) --> how to fix (additional changes) --> corrected output with terminal that properly runs and returns the link
-
-If the file does not end with a closed parenthesis, then the file will go out of bounds???
-
-The symptom to this bug is that the code is that an Index Out of Bounds error will be thrown when running the terminal, when it is supposed to return the links provided in the file instead. Thus, when given a failure-inducing input with an additional line at the end of the file, the code will thrown an Index Out of Bounds exception when it is not supposed to.
-
-We can see this symptom by running this [Failure-Inducing Input]
-. , which throws an Index Out of Bounds Exception. This is the ouptput:
+This bug can be resolved by adjusting the increment of currentIndex to explicitly ensure that the value of currentIndex is being added past the last parenthesis, as shown below (lines 26-27):
 
 
 
-![symptom test2](https://user-images.githubusercontent.com/103288140/165601033-7eb5dacd-5dcb-44e0-b031-34527d035be4.PNG)
+![debugging test2](https://user-images.githubusercontent.com/103288140/165618831-081f7959-4ed8-4fe3-ac2e-3e00dca4d2ca.PNG)
 
-This bug can be fixed by adjusting the increment value of currentIndex to explicitly ensure that the current value of currentIndex is added to currentParen + 1, as show below ():
-
-
-
-
-With these corrections, rerunning our failure-inducing input will correctly return the links with no exceptions thrown, and thus our bug has been fixed:
+With these corrections, when we rerun our failure-inducing input we will see that the terminal complies properly without any exceptions, and that the link is returned. Thus, our bug has been fixed:
 
 
 
-![correct test2](https://user-images.githubusercontent.com/103288140/165601421-7889a3af-6d31-4769-b489-1d09c1fca438.PNG)
+![correct test2](https://user-images.githubusercontent.com/103288140/165619461-83875ae7-89b7-4a49-bb47-0e1cd9a47ec0.PNG)
