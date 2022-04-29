@@ -1,39 +1,12 @@
 
-# CSE 15L Lecture 2 Spring 2022
+# UCSD CSE 15L Software Tools and Techniques Lab: Spring 2022
 
-## [Welcome Section!](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
+CSE 15L Section A04 <br>
+Created by Kiera Navarro <br>
+PID: A16944470
 
-Hello, **CSE 15L** *students*! You are all amazing! :)
+[Github Repository](https://github.com/kieraliz/cse15l-lab-reports)
 
-How are you all doing?
+[Link to Lab Report 1 Week 2](https://kieraliz.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
-[Link to CSEL Webpage](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
-
-This is a list of things
-* one
-* two
-* three
-
-This is a list of ordered things
-1. one
-2. two
-3. three
-
-Git is amazing!
-
-# Thank you everyone!
-
-# Header for Main Title
-
-*This text is italicized* <br>
-**This text is in bold** <br>
-
-* Bullet
-* List
-* * Indent
-
-[Link to Canvas](canvas.ucsd.edu)
-
-#### Inserting screenshot:
-![library](https://user-images.githubusercontent.com/103288140/162632731-36feb438-a7a8-421d-9e96-dbae0cb40027.PNG)
-
+[Link to Lab Report 2 Week 4](https://kieraliz.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
