@@ -4,10 +4,12 @@ Rather than typing
 > ssh cs15lsp22zzz@ieng6.ucsd.edu <br>
 
 to access UCSD's remote server, we shorten our login by creating file *config* in your .ssh file:
-
-
-
-![config](https://user-images.githubusercontent.com/103288140/167225200-e391b29e-4d4d-4208-abbf-3156259e7582.PNG)
+```
+Host ieng6
+    HostName ieng6.ucsd.edu
+    User cs15lsp22agw
+    IdentifyFile ~/.ssh/id_rsa
+```
 
 With this file, you can simply type in the command
 > ssh ieng6 <br>
@@ -15,6 +17,10 @@ With this file, you can simply type in the command
 to login into UCSD's server, as shown below: 
 
 ![Capture](https://user-images.githubusercontent.com/103288140/167225046-69a03e05-98a9-4eb0-8a6f-fdf030af0824.PNG)
+
+You can also use the alias ieng6 when copying a file, as shown below:
+
+![Capture](https://user-images.githubusercontent.com/103288140/168168312-4b32a2f3-dec7-4975-a560-aa89d79b19da.PNG)
 
 
 # Setup Github Access from ieng6
