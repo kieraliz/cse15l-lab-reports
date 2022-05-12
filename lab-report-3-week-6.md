@@ -33,7 +33,7 @@ I then added the public key to my GitHub, as shown below:
 
 ![ssh key](https://user-images.githubusercontent.com/103288140/167306435-126d250c-2a3c-459a-956e-625afcf1ad6f.PNG)
 
-These steps allow me to make changes from the remote terminal and push/commit those changes to GitHub, as shown below: 
+This allows me to make [these successful commits from the remote server](https://github.com/kieraliz/markdown-parser/commit/d3958b9820f67580f31cca6b84dc48f419e15bf1) and push/commit those changes to GitHub, as shown below: 
 
 ![Capture](https://user-images.githubusercontent.com/103288140/168170254-38da9f98-903e-4ddd-a9b6-fdfecc6267b7.PNG)
 ![Capture](https://user-images.githubusercontent.com/103288140/168170319-2dd2eb60-69f5-4468-864e-5e6bd486773d.PNG)
