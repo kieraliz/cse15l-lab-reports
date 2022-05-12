@@ -25,26 +25,18 @@ You can also use the alias ieng6 when copying a file, as shown below:
 
 # Setup Github Access from ieng6
 
-When making edits on the command line in the ieng6 server and you try to push and commit those edits, you get an error message explaining that you must a token-based login to commit those edits. <br>
-To change this, we can create a *public* key as part of the remote access lab to GitHub. 
+To make a new private and public key, I logged into the remote account and used ssh-keygen. The private key is stored in id_rsa, while the public key is stored in id_rsa.pub. These keys are now stored in my user account, as shown below: 
 
-1. Begin by opening your terminal and typing the following line (as shown below). Copy the output that follws: 
-> cat ~/.ssh/id_ed25519.pub <br>
+![Capture](https://user-images.githubusercontent.com/103288140/168169313-90399d91-1d55-4d8d-b174-63816da54103.PNG)
 
-2. In Github go to Settings &rarr; Access &rarr; SSH and GPG keys 
-
-3. Click the green button that says *New SSH key*
-
-4. Name your key in the *Title* field and paste your copied key in the *Key* field
-
-5. Click *Add SSH Key* and confirm your GitHub password, and now you are done! 
-
-By this point you should have two keys stored on GitHub: one private key and one public key
-
-
+I then added the public key to my GitHub, as shown below: 
 
 ![ssh key](https://user-images.githubusercontent.com/103288140/167306435-126d250c-2a3c-459a-956e-625afcf1ad6f.PNG)
 
+These steps allow me to make changes from the remote terminal and push/commit those changes to GitHub, as shown below: 
+
+![Capture](https://user-images.githubusercontent.com/103288140/168170254-38da9f98-903e-4ddd-a9b6-fdfecc6267b7.PNG)
+![Capture](https://user-images.githubusercontent.com/103288140/168170319-2dd2eb60-69f5-4468-864e-5e6bd486773d.PNG)
 
 
 # Copy whole directories with scp -r
