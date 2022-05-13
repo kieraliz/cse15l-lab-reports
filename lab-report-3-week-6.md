@@ -2,7 +2,7 @@
 
 ## Streamlining ssh Configuration
 
-Rather than typing *ssh cs15lsp22zzz@ieng6.ucsd.edu* to access UCSD's remote server, we shorten our login by creating file *config* in your .ssh file:
+Rather than typing *ssh cs15lsp22zzz@ieng6.ucsd.edu* to access UCSD's remote server, we shorten our login by creating file *config* in the .ssh file:
 ```
 Host ieng6
     HostName ieng6.ucsd.edu
