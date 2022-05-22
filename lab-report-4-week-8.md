@@ -54,3 +54,27 @@ Similiarly, I used this code in the other implementation of MarkdownParse2Lab4 t
 
 On this implementation, the test failed because the expected output was not the same as the output that was returned. This was the JUnit output: <br>
 ![Capture](https://user-images.githubusercontent.com/103288140/169716989-3a053969-59b2-42e7-8720-d4cf40ad0983.PNG)
+
+## Editing Snippet 1: All cases with Backticks
+
+You can make the program account for all cases with backticks by having if statements to check the backticks are inside the brackets or parentheses, as shown below:
+
+identifying everything inside the backticks. If the backticks contain 
+
+if statement:
+
+check the content inside the backticks:
+if there is a backtick containing [ and no [ before the backticks --> bad 
+similiar for the other bracket ]
+otherwise, you can extract the link in the parentheses 
+
+containing only one backtick, bad 
+
+`[`]
+[`]`
+[`[`]
+[`]`]
+
+## Editting Snippet 2: All cases with Nest Parentheses, Brackets, and Escaped Brackets
+
+## Editting Snippet 3: All cases with Newlines in Brackets and Parenthesis
