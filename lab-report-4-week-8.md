@@ -5,7 +5,7 @@ Here is the link to the [Markdown Parse Repository](https://github.com/anhthony/
 
 ## Testing Snippet 1
 
-Snippet 1 *should* produce the following links:
+Using CommonMark, Snippet 1 *should* produce the following links:
 > [`google.com, google.com, ucsd.edu]
 
 I used this code in my implementation of MarkdownParse to turn Snippet 1 into a test: <br>
@@ -23,7 +23,7 @@ On this implementation, the test failed because the expected output was not the 
 
 ## Testing Snippet 2
 
-Snippet 2 *should* produce the following links:
+Using CommonMark, Snippet 2 *should* produce the following links:
 > [a.com, a.com(()), example.com]
 
 I used this code in my implementation MarkdownParse to turn Snippet 2 into a test: <br>
@@ -40,7 +40,7 @@ On this implementation, the test failed because the expected output was not the 
 
 ## Testing Snippet 3
 
-Snippet 3 *should* produce the following links:
+Using CommonMark, Snippet 3 *should* produce the following links:
 > [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
 
 I used this code in my implementation of MarkdownParse to turn Snippet 3 into a test: <br>
