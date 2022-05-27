@@ -73,14 +73,14 @@ containing only one backtick, bad
 [`[`]
 [`]`]
 
-## Editting Snippet 2: All cases with Nest Parentheses, Brackets, and Escaped Brackets
+## Editing Snippet 2: All cases with Nest Parentheses, Brackets, and Escaped Brackets
 
 checking that the next open bracket is past the next closed bracket
 check that index of next closed bracket < index of next open bracket
 
 checking everything in pairs, only evaluating the content inside the parentheses and not the brackets
 
-## Editting Snippet 3: All cases with Newlines in Brackets and Parenthesis
+## Editing Snippet 3: All cases with Newlines in Brackets and Parenthesis
 
 check for \n, if found then move on
 check if any brackets and parentheses index is -1, then move on
