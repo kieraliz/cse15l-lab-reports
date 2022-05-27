@@ -53,6 +53,8 @@ On this implementation, the test failed because the expected output was not the 
 
 ## Editing Snippet 1: All cases with Backticks
 
+The problem is caused when backticks are inside and outside of the brackets. To fix this, you can create an if statement that catches the backtick, and breaks from the while loop, as shown below: 
+
 You can make the program account for all cases with backticks by having if statements to check the backticks are inside the brackets or parentheses, as shown below:
 
 identifying everything inside the backticks. If the backticks contain 
@@ -73,4 +75,14 @@ containing only one backtick, bad
 
 ## Editting Snippet 2: All cases with Nest Parentheses, Brackets, and Escaped Brackets
 
+checking that the next open bracket is past the next closed bracket
+check that index of next closed bracket < index of next open bracket
+
+checking everything in pairs, only evaluating the content inside the parentheses and not the brackets
+
 ## Editting Snippet 3: All cases with Newlines in Brackets and Parenthesis
+
+check for \n, if found then move on
+check if any brackets and parentheses index is -1, then move on
+
+
