@@ -1,7 +1,12 @@
 # Lab Report 5 Week 10
 
 ## Finding the differences: 
-I used *vimdiff* to find all differences in the two results.txt files from my implementation and the other implementation, which produced the output shown below (plus many more lines): 
+I used *vimdiff* to find all differences in the two results.txt files from my implementation and the other implementation. <br>
+Using the line <br>
+> vimdiff my-markdown-parser/results.txt cse15lsp22agw-markdown-parser-fork/results.txt <br>
+
+
+I got this output (plus many more lines): 
 ![Capture](https://user-images.githubusercontent.com/103288140/172065678-6d9fb3e0-7f60-454f-84ea-7f9e683d9fee.PNG)
 
 ## Test 1: 574.md
