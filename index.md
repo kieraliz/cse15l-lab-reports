@@ -14,3 +14,5 @@ PID: A16944470
 [Link to Lab Report 3 Week 6](https://kieraliz.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
 [Link to Lab Report 4 Week 8](https://kieraliz.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+[Link to Lab Report 5 Week 10](https://kieraliz.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
