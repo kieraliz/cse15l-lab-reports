@@ -29,5 +29,5 @@ Looking at [Test 577.md](https://github.com/nidhidhamnani/markdown-parser/blob/m
 Using CommonMark, my implementation is correct and the other implementation is incorrect, because the test should not produce any links, as shown below:
 ![Capture](https://user-images.githubusercontent.com/103288140/172067647-7986cbd1-3586-4acf-8666-2b18c37d7292.PNG)
 
-Like the previous example, the bug in the other implementation is that the code does not catch the ".jpeg" or ".png" or any other indicators that the contents within the parentheses is an image. This can be fixed by adding an if statement to catch any special phrases, as shown below: 
+Like the previous example, the bug in the other implementation is that the code does not catch the exclamation mark before the first open bracket, and also does not catch the ".jpeg" or ".png" or any other indicators that the contents within the parentheses is an image. This can be fixed by adding an if statement to catch any special phrases, as shown below: 
 ![Capture](https://user-images.githubusercontent.com/103288140/172068712-64e5f9ee-d567-438a-a60b-54e18c0e6f16.PNG)
